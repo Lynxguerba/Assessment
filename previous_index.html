@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Guerba-Portfolio</title>
+    <link rel="icon" href="images/icon.jpeg" />
+
+    <style>
+      body {
+        background: linear-gradient(180deg, #3a3b3c, black);
+      }
+      .bg {
+        position: relative;
+        width: 150px;
+        height: 150px;
+        background-image: linear-gradient(#2b547e, #4863a0);
+        place-content: center;
+        place-items: center;
+        display: flex;
+        overflow: hidden;
+        border-radius: 200px;
+      }
+      .bg [src="images/profile.jpg"] {
+        width: 145px;
+        height: 145px;
+        z-index: 1;
+        border-radius: 100px;
+        align-self: center;
+      }
+      .i {
+        position: relative;
+        width: 100%;
+        height: 250px;
+        position: relative;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        margin-top: 100px;
+      }
+
+      .am {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 110px;
+      }
+
+      .border {
+        width: 100%;
+      }
+
+      a {
+        color: white;
+        margin-left: 24px;
+      }
+      .icon img {
+        width: 50px;
+        height: 50px;
+      }
+      .anchor {
+        position: relative;
+        width: 100%;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+      }
+      .icon {
+        position: relative;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        justify-content: space-evenly;
+      }
+      footer {
+        background-image: linear-gradient(180deg, #3a3b3c, black);
+      }
+      .skills {
+        width: 100%;
+        height: 130px;
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .skills img {
+        width: 80px;
+        height: 80px;
+      }
+      .skills .html {
+        width: 150px;
+        padding: 10px;
+
+        color: #fff;
+        border: none;
+        box-shadow: 0.5px 0.5px 1px white;
+        text-align: center;
+        border-radius: 5px;
+      }
+      .skills .html:hover {
+        box-shadow: 1px 1px 10px #24cfcf;
+        text-shadow: 1px 1px 10px #24cfcf;
+      }
+      .skills .css {
+        width: 150px;
+        padding: 10px;
+        box-shadow: 0.5px 0.5px 1px white;
+        color: #fff;
+        border: none;
+        text-align: center;
+        border-radius: 5px;
+      }
+      .skills .css:hover {
+        box-shadow: 1px 1px 10px #24cfcf;
+        text-shadow: 1px 1px 10px #24cfcf;
+      }
+      .skills .java {
+        width: 150px;
+        padding: 10px;
+        box-shadow: 0.5px 0.5px 1px white;
+
+        color: #fff;
+        border: none;
+        text-align: center;
+        border-radius: 5px;
+      }
+      .skills .java:hover {
+        box-shadow: 1px 1px 10px #24cfcf;
+        text-shadow: 1px 1px 10px #24cfcf;
+      }
+      .skills p {
+        color: white;
+        position: relative;
+        bottom: 15px;
+      }
+
+      .skills p:hover {
+        color: #24cfcf;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      style="
+        position: relative;
+        display: flex;
+        justify-content: center;
+        height: 50px;
+        position: sticky;
+        background: #363739;
+        top: 0;
+        z-index: 2;
+        border-bottom: 1px solid white;
+      ">
+      <h1 style="text-align: center; color: white; align-self: center">
+        Personal Profile
+      </h1>
+    </div>
+    <hr class="border" />
+
+    <div class="i">
+      <div class="bg" style="align-self: center; margin-left: 70px">
+        <img src="images/profile.jpg" />
+      </div>
+      <h3 style="color: white; align-self: center; margin-left: 10px">
+        Dinno Guerba <br /><br />
+        <u>Web Developer </u><br />&nbsp; Programmer
+      </h3>
+
+      <h3
+        style="
+          color: white;
+          width: 250px;
+          align-self: center;
+          margin-left: 200px;
+        ">
+        “<mark style="background: #838996">HTML</mark>is the beginning of
+        everything you need to know to
+        <mark style="background: #838996">create engaging web pages!</mark>"
+      </h3>
+    </div>
+
+    <h2 style="color: white; text-align: center; margin-top: 200px">
+      <u>About Me</u>
+    </h2>
+    <div class="am">
+      <div
+        style="
+          position: relative;
+          align-self: center;
+          display: flex;
+          justify-content: center;
+          width: 60%;
+        ">
+        <p style="color: white; text-align: center">
+          Good day! My name is Dinno Guerba 19 years old, I am currently
+          pursuing a Bachelor of Science in Information Technology (BSIT 1H) at
+          Davao del Norte State College. I am passionate about web technology
+          and how it can be used to solve complex problems and make people's
+          lives easier.
+        </p>
+      </div>
+    </div>
+
+    <h2
+      style="
+        color: white;
+        text-align: center;
+        margin-top: 200px;
+        margin-bottom: 100px;
+      ">
+      <u>Skills</u>
+    </h2>
+    <div class="skills">
+      <div class="html">
+        <img src="images/html.jpg" />
+        <p>HTML</p>
+      </div>
+      <div class="css">
+        <img src="images/css.jpg" />
+        <p>CSS</p>
+      </div>
+      <div class="java">
+        <img src="images/java.jpg" />
+        <p>Java</p>
+      </div>
+    </div>
+
+    <h2 style="color: white; text-align: center; margin-top: 200px">
+      <u>Contact Info</u>
+    </h2>
+    <div class="icon">
+      <img src="images/fb.jpg" />
+      <img src="images/youtube.jpg" />
+      <img src="images/email.jpg" />
+    </div>
+    <br />
+    <div class="anchor">
+      <a
+        href="https://www.facebook.com/dinno.guerba.5?mibextid=ZbWKwL"
+        style="position: relative; left: 10px"
+        >Dinno Guerba</a
+      >
+      <a
+        href="https://www.youtube.com/@lynxg9145"
+        style="position: relative; left: 15px"
+        >LynxG</a
+      >
+      <a href="@dinnomguerba.com">@dinnomguerba.com</a>
+    </div>
+
+    <hr class="border" />
+    <footer>
+      <p style="color: white; text-align: center">
+        ©2023 DinnoGuerba index.html
+      </p>
+    </footer>
+  </body>
+</html>
